@@ -1,0 +1,5 @@
+interface Electric {
+    
+     void chargebattery();
+
+}
