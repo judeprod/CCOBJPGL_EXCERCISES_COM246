@@ -289,7 +289,7 @@ public boolean updateuser(ActionEvent event) {
                 String[] parts = line.split(",");
 
                 if (parts.length == 4 && parts[0].equalsIgnoreCase(targetUsername)) {
-                    updatedLines.add(parts[0] + "," + newPassword + "," + user.getAccountcreated() + "," + newStatus);
+                    updatedLines.add(usernametextfield.getText() + "," + newPassword + "," + user.getAccountcreated() + "," + newStatus);
                 } else {
                     updatedLines.add(line);
                 }
